@@ -1,0 +1,184 @@
+/*common start*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+/*common end*/
+/*header start*/
+header{
+	border: 1px solid red;
+}
+.box{
+	margin: 0 auto;
+	width: 90%;
+	/*border: 1px solid black;*/
+	overflow: hidden;
+}
+.logo{
+	width: 10%;
+	/*border: 1px solid green;*/
+	float: left;
+}
+.logo a{
+
+}
+.logo a img{
+	width: 100%;
+}
+.menu{
+	width: 50%;
+	/*border: 5px solid blue;*/
+	float: right;
+}
+.menu ul{}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	font-family: sans-serif;
+	text-decoration: none;
+	padding: 15px;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	color: inherit;
+}
+/*header end*/
+/* banner start*/
+.banner{
+	width: 100%;
+	padding: 20px;
+}
+.box1{
+	margin: 0 auto;
+	width: 55%;
+	/*border: 1px solid black;*/
+}
+.b-content{
+	text-align: center;
+}
+.b-content h1{
+	font-size: 50px;
+	line-height: 70px;
+}
+.b-content p{
+	font-size: 16px;
+	line-height: 25px;
+}
+.b-content h1 span{
+	color: blue;
+}
+.b-img{
+	margin: 0 auto;
+	width: 70%;
+	/*border: 1px solid blue;*/
+}
+.b-img img{
+	width: 100%;
+}
+/*banner end*/
+/*featute start*/
+.feature{
+	width: 100%;
+}
+.box2{
+	margin: 0 auto;
+	width: 65%;
+	/*border: 1px solid black;*/
+	overflow: hidden;
+}
+.f-content{}
+.f-left{
+	width: 50%;
+	text-align: right;
+	/*border: 1px solid black;*/
+	float: left;
+	margin-top: 45px;
+}
+.f-left h2{
+	margin: 0;
+	font-size: 40px;
+	color: red;
+	align-content: center;
+}
+.f-left p{
+	line-height: 25px;
+}
+.f-right{
+	text-align: left;
+}
+.f-right h1{
+
+	width: 45%;
+	font-size: 45px;
+	/*border: 1px solid black;*/
+	float: right;
+	text-transform: lowercase;
+}
+/*featute end*/
+/*service start*/
+.service{}
+.service-content{
+	overflow: hidden;
+}
+.service-box{
+	margin-right: 1%;
+	float: left;
+	width: 25%;
+	padding: 25px 23px;
+}
+.service-box:last-child{
+	margin-right: 0;
+}
+.pink{
+	background-color: #fdebed;
+}
+.blue{
+	background-color: #ebf9f4;
+}
+.yellow{
+	background-color: #fff7e8;
+}
+.s-img{}
+.s-img img{
+	width: 100%;
+}
+.s_h2{
+	margin: 30px 0;
+	font-size: 25px;
+}
+s_p{
+	margin: 0;
+	line-height: 25px;
+}
+.s-img{}
+.simage img{
+	width: 100%;
+}
+
+/*service end*/
+/*footer start*/
+footer{
+	/*border: 1px solid black;*/
+	text-align: center;
+	padding: 30px 0;
+	background-color: blue;
+}
+.footer-content{
+
+}
+.footer-content p{
+	margin: 0;
+	text-align: center;
+	color: white;
+}
+.footer-content p a{
+	color: white;
+	text-decoration: none;
+}
+/*footer end*/
